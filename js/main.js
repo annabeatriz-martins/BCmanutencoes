@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const cidade = cidadeEmail.value;
 
       if (!email || !nome || !cidade) {
-                alert("Por favor, preencha os campos obrigatórios (Email, Nome, Cidade).");
+                alert("Por favor, preencha os campos obrigatórios.");
                 return;
             }
 
@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const numeroEmpresa = "5513981653448";
 
       if (!telefone || !nome || !cidade) {
-                alert("Por favor, preencha os campos obrigatórios (Telefone, Nome, Cidade).");
+                alert("Por favor, preencha os campos obrigatórios.");
                 return;
             }
 
