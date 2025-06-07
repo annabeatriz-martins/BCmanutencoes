@@ -120,7 +120,7 @@
     width: 200px;
   }
 }
-@media sreen and (max-width:915px){
+@media screen and (max-width:915px){
   #contao{
     flex-direction:row;
   }
