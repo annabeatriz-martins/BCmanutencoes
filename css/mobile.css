@@ -26,6 +26,49 @@
     align-items: center;
     position: relative;
   }
+  #quemSomos{
+    flex-direction: column;
+  }
+  #quemSomos h2{
+    margin: auto;
+  }
+  #quemSomos p{
+    width: 100%;
+  }
+  #quemSomos div{
+    margin: auto;
+  }
+  #quemSomos img{
+    width: 70%;
+    height: 70%;
+  }
+  #quemSomos a{
+    width: 5%;
+  }
+  #servicos p{
+    width: 70%;
+  }
+  #servicos img{
+    width: 35%;
+  }
+  #contato{
+    flex-direction: column;
+    align-items: center;
+  }
+  #formContato{
+    margin: auto;
+  }
+  #rodape p{
+    font-size: 0.5rem;
+  }
+  #rodape::before{
+    width: 200px;
+  }
+}
+@media screen and (max-width:915px){
+  #contao{
+    flex-direction:row;
+  }
   #btnOrcamento{
     display:none;
   }
@@ -81,48 +124,5 @@
   }
   #mainNav a:last-child {
       border-bottom: none;
-  }
-  #quemSomos{
-    flex-direction: column;
-  }
-  #quemSomos h2{
-    margin: auto;
-  }
-  #quemSomos p{
-    width: 100%;
-  }
-  #quemSomos div{
-    margin: auto;
-  }
-  #quemSomos img{
-    width: 70%;
-    height: 70%;
-  }
-  #quemSomos a{
-    width: 5%;
-  }
-  #servicos p{
-    width: 70%;
-  }
-  #servicos img{
-    width: 35%;
-  }
-  #contato{
-    flex-direction: column;
-    align-items: center;
-  }
-  #formContato{
-    margin: auto;
-  }
-  #rodape p{
-    font-size: 0.5rem;
-  }
-  #rodape::before{
-    width: 200px;
-  }
-}
-@media screen and (max-width:915px){
-  #contao{
-    flex-direction:row;
   }
 }
