@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         mainNav.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
-                if (window.innerWidth <= 768) {
+                if (window.innerWidth <= 915) {
                     mainNav.classList.remove('active');
                     hamburgerBtn.classList.remove('active');
                 }
