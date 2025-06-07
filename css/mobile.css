@@ -1,4 +1,4 @@
-@media screen and (max-width:915px) {
+@media screen and (max-width:768px) {
   body{
     font-size: 1.12rem;
   }
@@ -118,5 +118,10 @@
   }
   #rodape::before{
     width: 200px;
+  }
+}
+@media sreen and (max-width:915px){
+  #contao{
+    flex-direction:row;
   }
 }
