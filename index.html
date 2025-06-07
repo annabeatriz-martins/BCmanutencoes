@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>BC MANUTENÇÕES</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="icon" href="img/icon.png">
+  </head>
+  
+  <body>
+    <header id="home">
+      <div id="cabecalho">
+        <img src="img/logo.png" alt="logo da empresa B&C Manutenções" loading="lazy">
+        <nav id="mainNav">
+          <a>Home</a>
+          <a href="#quemSomos">Quem Somos</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#contato">Contato</a>
+
+        </nav>
+
+        <a id="btnOrcamento" href="#contato">Faça seu orçamento</a>
+      </div>
+
+        <button class="hamburger-menu" aria-label="Abrir menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      <p>Fazemos a <span id="txtMaq">manutenção</span> da 
+        sua máquina e tornamos 
+        seu trabalho mais fácil
+      </p>
+      <a id="btnInfo" href="#servicos">Quero mais informações</a>
+    </header>
+    
+    
+    <section id="quemSomos">
+      <a href="#home"></a>
+      
+      <div>
+        <h2>Quem somos</h2>
+        <p>
+          Nós somos uma empresa especializada em manutenção de equipamentos hidráulicos e pneumáticos. Oferecemos soluções completas, garantimos eficiência e confiabilidade de seus sistemas, minimizando paradas e otimizando o desempenho.
+        </p>
+        <p>
+          Nosso compromisso é com a <strong>excelência técnica e a satisfação</strong> de nossos clientes.
+        </p>
+      </div>
+
+      <img src="img/img-quemSomos.png" alt="foto de uma empilhadeira portuária sobreposta por uma foto de uma escavadeira" loading="lazy">
+    </section>
+
+    <section id="servicos">
+      <div>
+        <h2>Serviços</h2>
+        <p>
+          Consertamos e fazemos manuteções de equipamentos hidráulicos e pneumáticos de médio e grande porte.
+        </p>
+      </div>
+        <figure>
+          <img src="img/guindaste.png" alt="guindaste" loading="lazy">
+          <img src="img/empilhadeira.png" alt="empilhadeira" loading="lazy">
+          <img src="img/escavadeira.png" alt="escavadeira" loading="lazy">
+        </figure>
+    </section>
+
+    <section id="contato">
+      <div>
+        <h2>Entre em contato</h2>
+        <p>Atendimento de segunda à sexta</p>
+        <p>Das 8:00h às 18:00h.</p>
+
+        <ul>
+          <li><img src="img/1passo.png" alt="1º preencha o formulário"></li>
+          <li><img src="img/2passo.png" alt="2º nós entraremos em contato"></li>
+        </ul>
+      </div>
+
+      <div id="formContato">
+        <nav>
+          <button type="button" class="tabBtn active" data-tab="Email">Email</button>
+          <button type="button" class="tabBtn" data-tab="Telefone">Whatsapp</button>
+        </nav>
+
+        <form id="formEmail" class="formulario active">
+            <label for="email">Qual é o seu email?</label>
+            <input type="email" id="email" placeholder="exemplo@email.com">
+
+            <label for="nomeEmail">Qual é o seu nome?</label>
+            <input type="text" id="nomeEmail" required placeholder="Nome">
+
+            <label for="equipEmail">Qual é o seu equipamento?</label>
+            <select id="equipEmail">
+              <option value="" disabled selected>Qual o seu equipamento?</option>
+              <option value="guindaste">Guindaste</option>
+              <option value="escavadeira">Escavadeira</option>
+              <option>Empilhadeira</option>
+              <option value="outro">Outro</option>
+            </select>
+
+            <label for="cidadeEmail">Qual é a sua cidade?</label>
+            <select id="cidadeEmail" required>
+              <option value="" disabled selected>Qual a sua cidade?</option>
+              <option value="Santos">Santos</option>
+              <option value="Sao Vicente">São Vicente</option>
+            </select>
+
+            <button type="button" id="btnEmail">Faça o seu orçamento</button>
+          </form>
+
+          <form id="formTelefone" class="formulario">
+            <label for="telefone">Qual é o seu telefone?</label>
+            <input type="tel" id="telefone" placeholder="Ex:(12)987654321">
+
+            <label for="nomeTel">Qual é o seu nome?</label>
+            <input type="text" id="nomeTel" required placeholder="Nome">
+
+            <label for="equipTel">Qual é o seu equipamento?</label>
+            <select id="equipTel">
+              <option value="" disabled selected>Qual o seu equipamento?</option>
+              <option value="guindaste">Guindaste</option>
+              <option value="escavadeira">Escavadeira</option>
+              <option>Empilhadeira</option>
+              <option value="outro">Outro</option>
+            </select>
+
+            <label for="cidadeTel">Qual é a sua cidade?</label>
+            <select id="cidadeTel" required>
+              <option value="" disabled selected>Qual a sua cidade?</option>
+              <option value="Santos">Santos</option>
+              <option value="Sao Vicente">São Vicente</option>
+              <option value="outra">Outra</option>
+            </select>
+
+            <button type="button" id="btnTel">Faça o seu orçamento</button>
+          </form>
+      </div>
+    </section>
+    
+    <footer id="rodape">
+      <img src="img/logo.png" alt="logo da empresa B&C Manutenções" loading="lazy">
+        <div id="atendimento" >
+          <p><strong>Horário de atendimento</strong></p>
+          <p>Seg. à Sex</p>
+          <p>8:00h às 18:00h</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
